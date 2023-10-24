@@ -1,0 +1,22 @@
+.Layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Layout > header {
+  text-align: center;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+}
+
+.main > main {
+  flex-grow: 1;
+}
+
+.Layout > footer {
+  text-align: center;
+}

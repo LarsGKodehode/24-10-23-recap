@@ -1,0 +1,10 @@
+.container {
+  background-color: cornflowerblue;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.container > div > img {
+  border-radius: 999999px;
+  width: 3rem;
+}
